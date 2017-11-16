@@ -1,11 +1,12 @@
 $main-font: "Roboto Slab", Helvetica, Georgia, sans-serif;
 $usual-font: Roboto, Helvetica, Georgia, sans-serif;
 
-@mixin make-button($bg-color, $xp) {
+@mixin make-button($bg-color, $xp, $yp) {
   border-radius: 27px;
   border: 1px solid rgba(255, 255, 255, 0.5);
   background-color: $bg-color;
-  padding: 20px $xp;
+  padding: $yp $xp;
+  text-decoration: none;
 }
 
 * {

@@ -6,32 +6,50 @@
 
     <title>Panakeia</title>
     <meta charset="UTF-8">
-    <link href="normalize.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet">
     <link href="styles/stylesheets/main.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 
 </head>
 
 <body>
 
-    <header class="fixed">
+    <header class="navbar fixed-top">
 
-        <h1 class="fixed-logo"></h1>
+        <div class="container row mx-auto d-flex align-items-center">
 
-        <nav class="fixed-nav">
+            <h1 class="navbar-logo">Panakeia</h1>
 
-            <a href="#" class="fixed-nav-item"></a>
-            <a href="#" class="fixed-nav-item"></a>
-            <a href="#" class="fixed-nav-item"></a>
-            <a href="#" class="fixed-nav-item"></a>
-            <a href="#" class="fixed-nav-item"></a>
+            <ul class="navbar-nav d-flex flex-row">
 
-        </nav>
+                <li class="nav-item">
+                    <a href="#">Fusce at</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#">Facilisis</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#">Ante donec</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#">Blandit rhonkus</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#">Placerat</a>
+                </li>
+
+            </ul>
+
+        </div>
 
     </header>
 
-    <section class="welcome">
+    <section class="welcome d-flex align-items-center text-center">
 
         <div class="welcome-bg">
 
@@ -39,7 +57,7 @@
 
         </div>
 
-        <div class="welcome-wrapper">
+        <div class="container">
 
             <h2 class="welcome-title">
                 Integer at tortor ut magna
@@ -51,9 +69,9 @@
 
             <!--<div class="container">-->
 
-                <ul class="welcome-list">
+                <ul class="welcome-list row">
 
-                    <li class="welcome-list-item">
+                    <li class="col-4">
 
                         <img src="img/main-dish-1.png">
 
@@ -69,7 +87,7 @@
 
                     </li>
 
-                    <li class="welcome-list-item">
+                    <li class="col-4">
 
                         <img src="img/main-dish-2.png">
 
@@ -86,7 +104,7 @@
 
                     </li>
 
-                    <li class="welcome-list-item col-4">
+                    <li class="col-4">
 
                         <img src="img/main-dish-3.png">
 
@@ -106,65 +124,71 @@
 
             <!--</div>-->
 
-            <a href="#" class="">Read more</a>
+            <a href="#" class="read-more">Read more</a>
 
         </div>
 
     </section>
 
-    <section class="news">
+    <section class="news d-flex align-items-center">
 
-        <div class="news-wrapper">
+        <div class="container text-center">
 
-            <h3 class="news-title"></h3>
+            <h3 class="news-title">Our news</h3>
 
-            <ul class="news-list">
+            <ul class="news-list row">
 
-                <li class="news-list-item">
+                <li class="col-4">
 
-                    <img src="">
+                    <img src="img/news-dish-1.png">
 
                     <h4 class="news-list-title">
-
+                        Lorem ipsum
                     </h4>
 
                     <p class="news-list-content">
-
+                        Est a elit scelerisque vestibulum. Donec est sem,
+                        lobortis sit amet imperdiet vel, pretium lobortis erat.
+                        Nulla vitae hendrerit odio.
                     </p>
 
-                    <a href="#" class=""></a>
+                    <a href="#" class="news-list-more">Read more</a>
 
                 </li>
 
-                <li class="news-list-item">
+                <li class="col-4">
 
-                    <img src="">
+                    <img src="img/news-dish-2.png">
 
                     <h4 class="news-list-title">
-
+                        Lorem ipsum
                     </h4>
 
                     <p class="news-list-content">
-
+                        Est a elit scelerisque vestibulum. Donec est sem,
+                        lobortis sit amet imperdiet vel, pretium lobortis erat.
+                        Nulla vitae hendrerit odio.
                     </p>
 
-                    <a href="#" class=""></a>
+                    <a href="#" class="news-list-more">Read more</a>
 
                 </li>
 
-                <li class="news-list-item">
+                <li class="col-4">
 
-                    <img src="">
+                    <img src="img/news-dish-3.png">
 
                     <h4 class="news-list-title">
-
+                        Lorem ipsum
                     </h4>
 
                     <p class="news-list-content">
-
+                        Est a elit scelerisque vestibulum. Donec est sem,
+                        lobortis sit amet imperdiet vel, pretium lobortis erat.
+                        Nulla vitae hendrerit odio.
                     </p>
 
-                    <a href="#" class=""></a>
+                    <a href="#" class="news-list-more">Read more</a>
 
                 </li>
 
@@ -174,28 +198,29 @@
 
     </section>
 
-    <section class="feedback">
+    <section class="feedback d-flex align-items-center text-center">
 
         <div class="feedback-bg">
 
-            <img src="">
+            <img src="img/feedback-bg.png">
 
         </div>
 
-        <div class="feedback-wrapper">
+        <div class="container mx-auto d-flex flex-column align-items-center">
 
-            <h3 class="feedback-title"></h3>
+            <h3 class="feedback-title">Newsletter</h3>
 
             <p class="feedback-content">
-
+                Ut arcu arcu, faucibus eu risus blandit, pulvinar viverra justo. Phasellus arcu justo,
+                ullamcorper non diam sit amet, luctus condimentum metus
             </p>
 
-            <form class="feedback-form">
+            <form class="feedback-form d-flex flex-row">
 
-                <input type="email" name="email" placeholder="email">
+                <input type="email" name="email" placeholder="email adress">
 
-                <button type="submit" name="signup" class="">
-
+                <button type="submit" name="signup" class="signup">
+                    Sign up
                 </button>
 
             </form>
@@ -313,6 +338,10 @@
         </div>
 
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 
 </body>
 

@@ -1,8 +1,126 @@
+.navbar {
+
+  height: 70px;
+  background-color: #edeff1;
+  width: 100%;
+  border-bottom: 1px solid black;
+
+  .container {
+    width: 1165px;
+  }
+
+  &-logo {
+    color: #31353e;
+    font-family: $main-font;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 36px;
+  }
+
+  .nav-item {
+    padding: 15px 25px;
+
+    &:hover {
+      color: #edeff1;
+      border-radius: 25px;
+      background-color: #dd4b2b;
+      text-decoration: none;
+    }
+
+    a {
+      text-decoration: none;
+      color: #31353e;
+      font-family: $main-font;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 24px;
+    }
+  }
+
+}
+
 .welcome {
   height: 100vh;
-  display: flex;
-  align-items: center;
-  text-align: center;
 
+  &-bg {
+
+    &::before {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 70px;
+      left: 0;
+      width: 100%;
+      height: 100vh;
+      z-index: 1;
+      background: linear-gradient(to top, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0) 100%);;
+    }
+
+    img {
+      position: absolute;
+      top: 70px;
+      left: 0;
+      width: 100%;
+      height: 100vh;
+    }
+
+  }
+
+  .container {
+    z-index: 1;
+    margin-top: 60px;
+    width: 1100px;
+  }
+
+  &-title {
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+    color: #ffffff;
+    font-family: $main-font;
+    font-size: 72px;
+    font-weight: 300;
+    line-height: 48px;
+  }
+
+  &-subtitle {
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+    color: #ffffff;
+    font-family: $main-font;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 48px;
+  }
+
+  &-list {
+    margin: 100px 0 60px;
+    list-style-type: none;
+
+    &-title {
+      color: #ffffff;
+      font-family: $main-font;
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 24px;
+      margin: 35px 0 30px;
+    }
+
+    &-content {
+      color: #ffffff;
+      font-family: $usual-font;
+      font-size: 15px;
+      font-weight: 300;
+      line-height: 30px;
+      margin: 0 10px;
+    }
+  }
+
+  .read-more {
+    @include make-button(white, 60px, 15px);
+    color: #612316;
+    font-family: $main-font;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-decoration: none;
+  }
 
 }

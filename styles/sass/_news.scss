@@ -1,0 +1,54 @@
+.news {
+  height: 100vh;
+  background-color: #edeff1;
+  margin-top: 70px;
+
+  .container {
+    width: 1170px;
+  }
+
+  &-title {
+    color: #31353e;
+    font-family: $main-font;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 80px;
+  }
+
+  &-list {
+    list-style-type: none;
+
+    img {
+      width: 100%;
+      margin-bottom: 40px;
+    }
+
+    &-title {
+      color: #31353e;
+      font-family: $main-font;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 30px;
+    }
+
+    &-content {
+      color: #31353e;
+      font-family: $usual-font;
+      font-size: 15px;
+      font-weight: 300;
+      line-height: 30px;
+      margin: 0 25px 40px;
+    }
+
+    &-more {
+      @include make-button(white, 55px, 12px);
+      color: #4e5159;
+      font-family: $usual-font;
+      font-size: 15px;
+      font-weight: 300;
+      line-height: 30px;
+    }
+
+  }
+}
