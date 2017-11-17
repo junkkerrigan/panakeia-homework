@@ -43,7 +43,7 @@
 
     &-more {
       @include make-button(white, 55px, 12px);
-      color: #4e5159;
+      color: #4e5159 !important;
       font-family: $usual-font;
       font-size: 15px;
       font-weight: 300;

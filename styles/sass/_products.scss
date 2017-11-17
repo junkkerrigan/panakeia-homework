@@ -1,5 +1,5 @@
 .products {
-  height: 100vh;
+  min-height: 100vh;
 
   .container {
     width: 1210px;
@@ -7,6 +7,7 @@
 
   &-list {
     list-style-type: none;
+    margin: 15px 0;
 
     &-item:nth-child(odd) {
       display: flex;
@@ -17,8 +18,12 @@
       }
     }
 
-    &-item:nth-child(n+1) {
+    &-item {
       margin-top: 55px;
+
+      &:first-child {
+        margin-top: 0;
+      }
     }
 
     &-data {
