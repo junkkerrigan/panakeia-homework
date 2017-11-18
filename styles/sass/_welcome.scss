@@ -94,13 +94,21 @@
     margin: 100px 0 60px;
     list-style-type: none;
 
+    img {
+      margin-bottom: 30px;
+    }
+
     &-title {
       color: #ffffff;
       font-family: $main-font;
       font-size: 30px;
       font-weight: 700;
       line-height: 24px;
-      margin: 35px 0 30px;
+      text-decoration: none;
+      &:hover {
+        text-decoration: inherit;
+        color: #fff;
+      }
     }
 
     &-content {
@@ -109,7 +117,7 @@
       font-size: 15px;
       font-weight: 300;
       line-height: 30px;
-      margin: 0 10px;
+      margin: 25px 10px 0;
     }
   }
 
